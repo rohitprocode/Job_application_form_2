@@ -15,7 +15,6 @@ body{
     max-width: 600px;
     margin: auto;
     margin-top: 50px;
-    padding: 10px;
 }
 .applybox h1{
     text-align: center;
@@ -30,6 +29,7 @@ body{
     font-size: 15px;
 }
 .form_container{
+    padding: 10px;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
     gap: 20px;
